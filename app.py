@@ -39,7 +39,6 @@ with tab1:
         else:
             branches.append({"지점": name, "1분기": q1, "2분기": q2, "3분기": q3})
             save_branches(branches)
-            st.return()
 
 # --- 상단 요약 지표 ---
 col1, col2, col3 = st.columns(3)
